@@ -88,3 +88,18 @@ nav {
     position: relative;
     left: 600px;
 }
+
+@media only screen and (max-width: 640px) {
+    nav {
+        flex-direction: column;
+    }
+    .list-item {
+        margin: 20px 20px;
+    }
+    .line {
+        display: none;
+    }
+    .bottom-section{
+        flex-direction: column;
+    }
+}
